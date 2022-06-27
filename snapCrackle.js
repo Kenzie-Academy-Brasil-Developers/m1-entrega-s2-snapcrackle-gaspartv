@@ -16,7 +16,7 @@ function snapCrackle(maxValue) {
             resultado += "Snap, "
         }
     }
-    return resultado
+    return resultado.substring(0, resultado.length-2)
 }
 
 function snapCracklePrime(maxValue) {
@@ -56,5 +56,5 @@ function snapCracklePrime(maxValue) {
             resultado += `${numeroAtual}, `
         }
     }
-    return resultado
+    return resultado.substring(0, resultado.length-2)
 }
